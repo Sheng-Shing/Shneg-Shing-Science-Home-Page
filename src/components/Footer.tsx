@@ -7,12 +7,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16 underline-offset-4">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center text-white shadow-xl shadow-teal-900/20">
-                <HeartPulse size={28} />
-              </div>
+              <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-14 h-14 object-contain bg-white rounded-xl p-1 shadow-xl shadow-teal-900/20" />
               <div className="flex flex-col">
                 <span className="font-bold text-2xl tracking-tight text-white leading-none">勝行科技</span>
-                <span className="text-[12px] uppercase font-semibold text-teal-500 tracking-[0.2em] mt-1">Victory Tech</span>
+                <span className="text-[12px] uppercase font-semibold text-teal-500 tracking-[0.2em] mt-1">Sheng Shing Science</span>
               </div>
             </div>
             <p className="max-w-sm text-gray-400 text-lg leading-relaxed">
@@ -43,7 +41,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-gray-500 font-medium">
-          <p>© 2026 勝行科技 Victory Tech. All rights reserved.</p>
+          <p>© 2026 勝行科技 Sheng Shing Science. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">隱私權政策</a>
             <a href="#" className="hover:text-white transition-colors">服務條款</a>

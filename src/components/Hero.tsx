@@ -15,7 +15,7 @@ export default function Hero() {
         >
           <div className="flex items-center gap-2 px-3 py-1 bg-teal-100 text-teal-700 rounded-full w-fit mb-6">
             <ShieldCheck size={16} />
-            <span className="text-xs font-bold uppercase tracking-wider">智慧醫療創新領航</span>
+            <span className="text-xs font-bold uppercase tracking-wider">智慧照護創新領航</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-[1.1] mb-8">
@@ -24,7 +24,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl text-gray-600 mb-10 max-w-xl leading-relaxed">
-            勝行科技致力於將 AI 創新技術與精準健康照護深度結合。我們不只研發設備，更是在打造溫暖的互動感，讓長輩在專業醫療感中感受康復的喜悅。
+            勝行科技致力於將 AI 創新技術與精準健康照護深度結合。我們不只研發設備，更是在打造溫暖的互動感，讓長輩在專業照護感中感受康復的喜悅。
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">
@@ -64,19 +64,18 @@ export default function Hero() {
         >
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-[24px_24px_80px_rgba(0,0,0,0.1)] border-8 border-white">
             <img 
-              src="https://picsum.photos/seed/healthcare/1200/1000" 
-              alt="Medical Care Innovation" 
+              src="/introduction-image.png" 
+              alt="Sheng Shing Science Innovation" 
               className="w-full h-auto object-cover"
-              referrerPolicy="no-referrer"
             />
           </div>
           
           {/* Dashboard Popover Mockup */}
-          <motion.div 
-            initial={{ x: 50, opacity: 0 }}
+          <motion.div
+            initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="absolute -right-8 bottom-12 z-20 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 max-w-[240px]"
+            className="absolute -left-8 top-12 z-20 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 max-w-[240px]"
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />

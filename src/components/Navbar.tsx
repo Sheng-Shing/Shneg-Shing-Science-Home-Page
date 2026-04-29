@@ -20,12 +20,10 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-2"
         >
-          <div className="w-10 h-10 bg-teal-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-teal-600/20">
-            <HeartPulse size={24} />
-          </div>
+          <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-12 h-12 object-contain" />
           <div className="flex flex-col">
             <span className="font-bold text-xl tracking-tight text-gray-900 leading-none">勝行科技</span>
-            <span className="text-[10px] uppercase font-semibold text-teal-600 tracking-[0.2em]">Victory Tech</span>
+            <span className="text-[10px] uppercase font-semibold text-teal-600 tracking-[0.2em]">Sheng Shing Science</span>
           </div>
         </motion.div>
 
