@@ -14,18 +14,19 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <motion.div 
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+        <motion.a 
+          href="#"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="flex items-center gap-2"
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity"
         >
-          <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-12 h-12 object-contain" />
-          <div className="flex flex-col">
-            <span className="font-bold text-xl tracking-tight text-gray-900 leading-none">勝行科技</span>
-            <span className="text-[10px] uppercase font-semibold text-teal-600 tracking-[0.2em]">Sheng Shing Science</span>
+          <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-16 h-16 object-contain" />
+          <div className="flex flex-col gap-0.5">
+            <span className="font-bold text-2xl tracking-tight text-gray-900 leading-none">勝行科技</span>
+            <span className="text-xs uppercase font-bold text-teal-600 tracking-[0.2em]">Sheng Shing Science</span>
           </div>
-        </motion.div>
+        </motion.a>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">

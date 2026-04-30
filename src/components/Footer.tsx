@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16 underline-offset-4">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-8">
-              <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-14 h-14 object-contain bg-white rounded-xl p-1 shadow-xl shadow-teal-900/20" />
+              <img src="/logo.png" alt="Sheng Shing Science Logo" className="w-20 h-20 object-contain bg-white rounded-xl p-1 shadow-xl shadow-teal-900/20" />
               <div className="flex flex-col">
-                <span className="font-bold text-2xl tracking-tight text-white leading-none">勝行科技</span>
-                <span className="text-[12px] uppercase font-semibold text-teal-500 tracking-[0.2em] mt-1">Sheng Shing Science</span>
+                <span className="font-bold text-3xl tracking-tight text-white leading-none">勝行科技</span>
+                <span className="text-[18px] uppercase font-semibold text-teal-500 tracking-[0.2em] mt-1">Sheng Shing Science</span>
               </div>
             </div>
             <p className="max-w-sm text-gray-400 text-lg leading-relaxed">
