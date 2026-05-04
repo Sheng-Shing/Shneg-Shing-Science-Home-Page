@@ -32,7 +32,7 @@ export default function Caregiver() {
                    <div className="w-8 h-8 rounded-full bg-teal-100 flex items-center justify-center text-teal-600">
                      <Sparkles size={16} />
                    </div>
-                   <span className="font-bold text-gray-900">廖小Q 助理</span>
+                   <span className="font-bold text-gray-900">小Ｑ 助理</span>
                  </div>
                  <p className="text-sm text-gray-500 leading-relaxed font-medium">
                    「早安！今天的握球練習要開始囉，讓我們一起挑戰新關卡吧！」
@@ -52,11 +52,11 @@ export default function Caregiver() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
-              親和形象：數位照護師「廖小Q」
+              親和形象：數位照護師「小Ｑ」
             </h2>
             
             <p className="text-xl text-teal-50/80 mb-12 leading-relaxed">
-              透過擬人化的互動，大幅降低長輩對電子產品的排斥感，並提升日常復健的服從性。廖小Q 不只是照護，更是暖心的陪伴。
+              透過擬人化的互動，大幅降低長輩對電子產品的排斥感，並提升日常復健的服從性。小Ｑ 不只是照護，更是暖心的陪伴。
             </p>
 
             <div className="grid gap-6">

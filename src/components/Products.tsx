@@ -12,7 +12,7 @@ export default function Products() {
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">多功能智慧照護系統</h2>
           </div>
           <p className="max-w-md text-gray-500 text-lg">
-            從洗腎護理到呼吸吞嚥訓練，全方位守護高齡生活。
+            從洗腎瘻管護理到呼吸吞嚥訓練，全方位守護高齡生活。
           </p>
         </div>
 

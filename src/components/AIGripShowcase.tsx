@@ -84,7 +84,7 @@ export default function AIGripShowcase() {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                     <div className="text-[10px] text-teal-400 uppercase font-bold mb-1">Monitoring Delay</div>
-                    <div className="text-2xl text-white font-mono">0.05ms</div>
+                    <div className="text-2xl text-white font-mono">50 ms</div>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                     <div className="text-[10px] text-teal-400 uppercase font-bold mb-1">AI Recommendation</div>
